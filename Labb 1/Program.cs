@@ -14,7 +14,7 @@ while (true) //Gjorde while loop mer för att slippa avsluta för att skriva in 
     Console.WriteLine("Skriv in siffror och bokstäver");
     string inputString = Console.ReadLine();
     Console.WriteLine("");
-
+    
     for (int i = 0; i < inputString.Length; i++) //Kolla igenom strängen som blivit inskriven och 
     {
         for (int j = i + 1; j < inputString.Length; j++) // Kollar de efterföljande tecken efter [i] värdet är kollat
